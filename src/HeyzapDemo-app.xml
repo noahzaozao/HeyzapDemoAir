@@ -268,6 +268,7 @@
 			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	        <application android:hardwareAccelerated="true">
 			    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+			    <activity android:name="com.unity3d.ads.android.view.UnityAdsFullscreenActivity"  android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:hardwareAccelerated="true" />
 				<activity android:name="com.vungle.publisher.FullScreenAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 				<service android:name="com.vungle.publisher.VungleService"/>
 				<activity android:name="com.heyzap.sdk.ads.HeyzapInterstitialActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
@@ -300,5 +301,6 @@
         <extensionID>com.vungle.extensions.android.AndroidSupportLib</extensionID>
         <extensionID>com.vungle.extensions.android.GooglePlayServices</extensionID>
         <extensionID>com.vungle.extensions.Vungle</extensionID>
+    <extensionID>com.heyzap.sdk.extensions.unityads</extensionID>
     </extensions>
 </application>

@@ -1,9 +1,7 @@
 package
 {
-    import com.heyzap.sdk.HeyzapEvent;
     import com.heyzap.sdk.ads.HeyzapAds;
     import com.heyzap.sdk.ads.IncentivizedAd;
-    import com.heyzap.sdk.ads.VideoAd;
     
     import flash.display.Sprite;
     import flash.display.StageAlign;
